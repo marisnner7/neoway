@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### aplicação de validação de CPF/CNPJ
 
-Things you may want to cover:
+Backend API rest com rails
+Frontend SPA com react.js
+Banco de dados Postgresql
 
-* Ruby version
+Faça clone da aplicação com ```git@github.com:marisnner7/neoway.git```
+Em seguida instale rode ``` bundle```
+Pode ser necassário rodar migrations ```rails db:migrate```
+Popule o banco de dados com dados de teste ```rails db:seed```
+Abra o servidor backend com ```rails s```
+servidor pode ser acessado em ```http://localhost:3001/api/v1``` no seu browser favorito. 
+Testes de backend podem ser rodados com 
+```
+rspec spec
+```
+Gems utilizadas: shoulda matchers, rack-cors, faker, cpf_cnpj. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Aplicação frontend com react não finalizada. 
+Navege até a pasta do frontend com ```cd crud-users```
+Inicie com ```yarn start```
